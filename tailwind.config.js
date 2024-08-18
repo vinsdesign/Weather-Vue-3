@@ -9,6 +9,12 @@ export default {
         light: "#508C9B",
         dark: "#201E43",
       },
+      fontFamily: {
+        PoppinsBold: "Poppins-Bold, sans-serif",
+        PoppinsSemiBold: "Poppins-SemiBold, sans-serif",
+        PoppinsMedium: "Poppins-Medium, sans-serif",
+        Poppins: "Poppins-Regular, sans-serif",
+      },
     },
   },
   plugins: [],
