@@ -1,9 +1,11 @@
 <script setup>
 import { RouterLink, RouterView } from "vue-router";
+import SiteNavigation from "./components/SiteNavigation.vue";
 </script>
 
-<template>
+<template class="flex flex-col min-h-screen font-Poppins bg-dark">
   <RouterView />
+  <SiteNavigation />
 </template>
 
 <style scoped></style>
