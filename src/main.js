@@ -8,13 +8,17 @@ import router from "./router";
 import { library } from "@fortawesome/fontawesome-svg-core";
 
 /* import specific icons */
-import { faSun } from "@fortawesome/free-solid-svg-icons";
+import {
+  faCloud,
+  faCircleInfo,
+  faPlus,
+} from "@fortawesome/free-solid-svg-icons";
 
 /* import font awesome icon component */
 import { FontAwesomeIcon } from "@fortawesome/vue-fontawesome";
 
 /* add icons to the library */
-library.add(faSun);
+library.add(faCloud, faCircleInfo, faPlus);
 
 const app = createApp(App);
 
