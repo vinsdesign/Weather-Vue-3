@@ -9,7 +9,7 @@
         class="bg-transparent w-full px-1 py-2 border-b focus:border-secondary focus:outline-none text-white focus:shadow-sm"
       />
       <ul
-        class="absolute bg-secondary text-light w-full shadow-md py-3 px-1 top-16"
+        class="absolute bg-secondary text-light w-full shadow-md py-1 px-1 top-16"
         v-if="mapboxSearchResults"
       >
         <li
